@@ -1,7 +1,7 @@
 import os
 from flask import Flask, render_template, request, jsonify
 from google import genai
-from dotenv import load_model_from_dotenv
+from dotenv import load_dotenv
 
 load_dotenv()
 app = Flask(__name__)
